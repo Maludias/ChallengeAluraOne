@@ -1,0 +1,215 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    
+    color:#0A3871 ;
+    margin-top: 90px;
+    text-transform: lowercase ;
+}
+::placeholder{
+    color:#0A3871 ; 
+}
+.text-area:focus{
+    outline: none;
+}
+.mensagem{
+    background-color: white;
+    background-image: url(people.png);
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    color: rgb(32, 32, 34);
+    margin-left:98px ;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 336px;
+    height: 480px;
+    font-size: 25px;
+}
+.mensagem:focus{
+    outline: none;
+}
+.btns{
+  display: flex;
+  margin-top: 18px;  
+}
+.btn2{
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 320px;
+}
+.btn1{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 320px;
+}
+.btncopi{
+    background-color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+.info {
+    
+    display: flex;
+    font-size: 12px;
+    color: #848688;
+    height: 82px;
+    margin-bottom: 25px;
+    
+
+}
+.info h6{
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.fa-solid, .fas {
+    margin-top: 82px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+
+    background-color: #0A3871;
+
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: white;
+    width: 99%;
+    font-size: 16px;
+    
+  }
+
+@media (max-width: 780px) {
+    * {
+        font-size: 24px;
+    }
+    body{
+        overflow-x:hidden;
+    }
+    
+    .logo {
+        width: 10%;
+    }
+    
+    main {
+        display: block;
+        margin-left: 10px;
+        overflow-x: hidden;
+    }
+    
+    
+    .text-area {
+        margin-top: 20px;
+        font-size: 18px;
+        width: 90%;
+    }
+    section .responseDesc{
+        margin-left: 0;
+    }
+    .mensagem {
+        display: block;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 10%;
+        width: 82%;
+        height: 350px;
+       
+    }
+ 
+    .btns {
+        display: block;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+       
+    }
+    
+    .btn1, .btn2, .btncopi {
+        width: 90%;
+        height: 50px;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .btncopi{
+        margin-top: 80%;
+    }
+ 
+    .info {
+        font-size: 10px;
+        height: 60px;
+    }
+    
+    .info h6 {
+        margin-top: 55px;
+    }
+
+    div.info{
+        
+        margin-bottom: 10px;
+    }
+    
+    .fa-solid, .fas {
+        margin-top: 60px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    
+    .mensagemErro {
+        font-size: 10px;
+    }
+    .footer{
+        width: 95%;
+    }
+ 
+
+}
+

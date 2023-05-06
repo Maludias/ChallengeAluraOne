@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d09f4358c.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="">
+    </header>
+   <main>
+    <section class="responseCri">
+        <textarea class="text-area" id="textAreaCrip" cols="41" rows="4" placeholder="Digite Seu Texto:"></textarea>
+        <div class="info">
+            <i class="fa-solid fa-circle-info"></i>
+            <h6 > Apenas letras minúsculas e sem acento.</h6>
+        </div>
+        <div class="btns">
+            <button id="btncrip" class="btn1" onclick="btnCripto(); isNullArea(); removeImage()"  >Criptografar</button>
+            <button id="btndescrip" class="btn2" onclick="btnDesCripto(); isNullArea(); removeImage()" >Descriptografar</button>
+        </div>
+    </section>
+
+    <section class="responseDesc">
+        <textarea name="mensagem" id="text" cols="20" rows="10" class="mensagem"></textarea>
+        <button class="btncopi" onclick="copyCripto()" >Copiar</button>
+    </section>
+   </main>
+
+   <footer class="footer">Challenge Alura by Malu</footer>
+   <script src="script.js"></script>  
+</body>
+</html>
